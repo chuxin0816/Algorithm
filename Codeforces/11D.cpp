@@ -7,7 +7,7 @@ int main() {
   cin >> n >> m;
   t = 1 << n;
   vector<int> adl[20];
-  for (int i = 0; i < m; ++i) {
+  for (int i = 0; i < m; ++i) {z
     int a, b;
     cin >> a >> b;
     adl[a].push_back(b);
