@@ -1,10 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int N = 105;
-int a[N][10], f[N][20][5], ans = -2147483647;
+class student{
+    private:
+    int x1,x2,x3;
+    int *s=new int[1000];
+    public:
+    student():x1(0),x2(0),x3(0){}
+    // student(int x1,int x2,int x3):x1(x1),x2(x2),x3(x3){}
+    /* student(int x1,int x2,int x3){
+        x1=x1;
+        x2=x2;
+        x3=x3;
+    } */
+    void print() {
+        cout<<x1<<' '<<x2<<' '<<x3<<endl;
+    }
+};
+student a(1,2,3);
 int main() {
-  long long i=4;
-  bool zero=0;
-  int d=4;
-  cout<<((!zero || i) && (i==d))<<endl;
-  }
+    
+    a.print();
+    return 0;
+}
+
