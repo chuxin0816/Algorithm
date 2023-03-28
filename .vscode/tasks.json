@@ -16,9 +16,9 @@
             ],
             "group": "build",
             "presentation": {
-                "echo": true,
+                "echo": false,
                 "reveal": "silent",
-                "focus": false,
+                "focus": true,
                 "panel": "shared",
                 "showReuseMessage": true,
                 "clear": false
