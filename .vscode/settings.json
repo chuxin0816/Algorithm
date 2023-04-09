@@ -53,7 +53,7 @@
     // Whether to save the current file before running (default is false):
     "code-runner.saveFileBeforeRun": true,
     // Whether to show extra execution message like [Running] ... and [Done] ... (default is true):
-    "code-runner.showExecutionMessage": true, // cannot see that message is you set "code-runner.runInTerminal" to true
+    "code-runner.showExecutionMessage": false, // cannot see that message is you set "code-runner.runInTerminal" to true
     // Whether to run code in Integrated Terminal (only support to run whole file in Integrated Terminal, neither untitled file nor code snippet) (default is false):
     "code-runner.runInTerminal": true, // cannot input data when setting to false
     // Whether to preserve focus on code editor after code run is triggered (default is true, the code editor will keep focus; when it is false, Terminal or Output Channel will take focus):
