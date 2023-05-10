@@ -6,4 +6,5 @@ int main(){
   cout<<name<<endl<<s<<endl;
   string_view a {"hello"};
   cout<<a<<endl;
+  return 0;
 }
